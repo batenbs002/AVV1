@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aanmeldpagina 2.0</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet-flex.css">
+    
+</head>
+
+<body class=aanmeldpagina>
+  
+   <header>
+ 
+  <!--Logo-->
+  
+   <h1>Transavia's Verhalenclub</h1>
+   
+</header>
+
+<!--Main navigation in header-->
+   
+    <nav>
+        <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profiel">Profiel</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <!--Aanmeld formulier-->
+    
+   <main>
+   
+   <!--Persoonsgegevens-->
+   
+   <form>
+       <fieldset>
+            <legend>Persoonsgegevens</legend>
+             
+                <label for="naam">Naam:</label>
+                <input name="Voornaam" type="text" id=naam placeholder="Anna de Wit" required autofocus>
+               
+                <label for="geboortedatum">Geboortedatum:</label>
+                <input type="date" name="Geboortedatum" id=geboortedatum>
+               
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="E-mail" id=e-mail placeholder="annadewit@gmail.com"> 
+                
+                <label for="reset"></label> 
+                <input type="reset" name="reset" id=reset value="Reset">
+               
+        </fieldset> 
+   </form>
+   
+   <!--Adresgegevens-->
+   
+   <form>
+       <fieldset>
+           <legend>Adresgegevens</legend>
+             
+                <label for="Straatnaam">Straatnaam:</label>
+                <input name="Straatnaam" type="text" id=Straatnaam placeholder="Herengracht">
+               
+                <label for="Postcode">Postcode:</label>
+                <input name="Postcode" type="text" id=Postcode placeholder="1234AA">
+               
+                <label for="Huisnummer">Huisnummer:</label>
+                <input name="Huisnummer" type="number" id=Huisnummer placeholder="10">
+               
+                <label for="Toevoeging">Toevoeging:</label>
+                <input name="Toevoeging" type="text" id=Toevoeging placeholder="A">
+               
+                <label for="Telefoonnummer">Telefoonnummer:</label>
+                <input name="Telefoonnummer" type="number" id=Telefoonnummer placeholder="1234-123456">
+                
+                <label for="Mobielnummer">Mobielnummer:</label>
+                <input name="Mobielnummer" type="number" id=Mobielnummer placeholder="06-12345678">    
+             
+                <label for="Reset"></label> 
+                <input type="reset" id=Reset value="Reset">
+                 
+        </fieldset>
+    </form>
+       
+    <!--Gebruikersgegevens-->   
+   
+    <form>
+        <fieldset>
+            <legend>Gebruikersgegevens</legend>
+             
+                <label for="Gebruikersnaam">Gebruikersnaam:</label>
+                <input name="Gebruikersnaam" type="text" id=Gebruikersnaam placeholder="Anna123">
+               
+                <label for="Wachtwoord">Wachtwoord:</label>
+                <input name="Wachtwoord" type="password" id=Wachtwoord placeholder="XXXXXXXXXXX">
+               
+                <label for="Herhaalwachtwoord">Herhaal wachtwoord:</label>
+                <input name="Herhaal wachtwoord" type="password" id=Herhaalwachtwoord placeholder="XXXXXXXXXXX">  
+             
+                <label for="Reset"></label> 
+                <input type="reset" value="Reset">     
+        </fieldset>
+    </form>
+       
+</main>
+    
+    
+</body>
+</html>

@@ -1,0 +1,221 @@
+@media(max-width: 30em) {
+    img{
+        display:none;
+    }
+    
+  
+}
+
+@media(min-width: 100em) {
+    
+    aside{
+        display:none;
+    }
+}
+
+@media(min-width: 100em){
+    
+   articles{
+       display:flex;
+       flex-flow: column;
+    }
+}
+
+html{
+    background-color: white;
+    font-family: "trebuchet ms", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.45;
+    margin: .5em;
+    padding: .5em;
+}
+
+body{
+    display: flex;
+    flex-flow:row;
+    flex-wrap: wrap;
+    font-size: 1.125em;   
+}
+
+.aameldpagina{
+    display: flex;
+    flex-flow:column;
+    flex-wrap: wrap;
+    font-size: 1.125em;   
+}
+
+/* Haalt lijn onder menu links weg*/
+
+ul{
+    list-style-type: none;
+}
+
+/* http://type-scale.com/ Scale 1.250 Major Third 16px=1em*/
+
+h1, h2, h3, h4 {
+    color: #00d66c;
+    font-weight: inherit;
+    line-height: 1.2;
+    margin: 1.414em 0 0.5em; 
+}
+
+h1{
+ margin-top: 0;
+    font-size: 2.441em;
+    text-shadow: 2px 2px grey;
+}
+
+h2{
+    font-size: 1.953em;
+}
+
+h3{
+    font-size: 1.563em;
+}
+
+h4{
+    font-size: 1.25em;
+}
+
+img{
+    width: 100px;
+    
+    
+    
+}
+
+p{
+    margin-bottom: 1.3em;
+    max-width: 30em;
+    
+}
+
+
+input[type=search]{
+    background-color: white;
+    border: 2px solid;
+    border-radius: .5em;
+    color: #2800a0;
+    outline: none;
+    padding: 10px;
+    transition: width 0.3s ease-in-out; /*Transistion bij aanklikken searchbalk of wegklikken*/
+    width: 8em;
+}
+
+/*Pop out search balk*/
+
+input[type=search]:focus{
+    border: 2px solid;
+    color: #2800a0;
+    width: 60%;
+}
+
+/*Sorteer dropdown*/
+
+select{
+    border-radius: .5em;
+    font-family: "trebuchet ms";
+    font-size: .707em;
+    padding: 10px;
+    width: 20em;
+}
+
+/*pink buttons*/
+
+form > input{
+    background-color: #ff3268;
+    border: 20px;
+    color: white;
+    padding: 10px;
+}
+
+main{
+    background-color: white;
+}
+
+/*search button, pink buttons & filters*/
+
+input{
+    background-color: #2800a0;
+    border-radius: .5em;
+    color: white;
+    padding: 10px;
+    border: 2px #2800a0;
+    font-size: "trebuchet ms", sans-serif;
+    width: 5em;
+}
+
+/*search buton*/
+.searchbutton{
+    width: 5em;
+    
+}
+fieldset{
+    border: none;
+    display: flex;
+}
+
+/*auteur en datum*/
+
+footer{
+    font-size: .8em;
+}
+
+/*Navigatie*/
+
+ul,a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-decoration: none;
+    color: #2800a0;
+}
+
+a:hover{
+    color: #00d66c;
+}
+
+.localnav{
+    font-size: 1.25em;
+    display: flex;
+    flex-flow: row;
+}
+
+/*filters*/
+
+aside{
+    border-radius: .5em;
+    background-color: #2800a0;
+    color: white;
+    margin: 1em;;
+    padding: 1em;
+}
+
+.aanmeldpagina, input{
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    font-family: "trebuchet ms";
+    display: flex;
+    width: 20em;
+}
+
+.buttons{
+    display: flex;
+    flex-flow: row;
+    box-shadow: hsla(336, 100%, 50%, 0.75);
+    width: 10em; 
+    
+}
+
+.buttons, input{
+    margin-right: .7em;
+    width: 15em;
+}
+
+input[type=search]{
+    width: 15em;
+    
+}
